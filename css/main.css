@@ -1,0 +1,259 @@
+/* # Notes
+  ## Type Scale
+    5 7 9 12 16 21 28 37 50 67 89 119
+
+  ## Fonts
+  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Source Code Pro', monospace;
+*/
+
+
+html{
+  font-family: 'Share Tech Mono', monospace;
+  background-color: #333;
+  color: #00ff00;
+}
+
+body {
+  margin: 3% 9%;
+  padding: 3% 6%;
+}
+
+header {
+
+}
+
+nav {
+  float: left;
+  height: 100%;
+  width: 30%;
+  display: block;
+}
+
+main {
+  padding: 3% 3%;
+  width: 60%;
+  float: right;
+  display: block;
+}
+
+section {
+  display: block;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 3% 0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+main h1, main h2, main h3, main h4, main h5, main h6 {
+  margin: 0 0 3% -3%;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 37px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 21px;
+  font-weight: bold;
+}
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+h6 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 21px;
+  line-height: 1.7em;
+  margin: 5% 0;
+}
+
+i, em, b, strong, code {
+  font-family: 'Source Code Pro', monospace;
+}
+
+a, a:hover, a:active {
+  color: #00ff00;
+}
+
+a {
+  border-bottom: 3px solid green;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #444;
+  border-left: 3px solid #444;
+  border-right: 3px solid #444;
+}
+
+a:active {
+  background-color: #555;
+  border-left: 3px solid #555;
+  border-right: 3px solid #555;
+}
+
+img {
+  margin: 3% 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  line-height: 1.3em;
+}
+
+table{
+  margin: 3%;
+  padding: 3%;
+}
+
+footer {
+  padding: 3% 0;
+}
+ footer p {
+   float: right;
+   font-size: 16px;
+ }
+
+/* IDs */
+
+/*
+#game-design {
+  width: 50%;
+  float: left;
+  background-color: #999;
+}
+#game-development {
+  background-color: #666;
+}
+#game-business {
+  width: 50%;
+  float: left;
+  background-color: #666;
+}
+#game-marketing {
+  background-color: #999;
+}
+*/
+
+/* Classes */
+
+nav ul.main-nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* nav ul.main-nav li {
+  display: inline;
+  float: left;
+} */
+
+nav ul.main-nav li a {
+  display: block;
+  color: #00ff00;
+  text-align: left;
+  padding: 15px 18px;
+  text-decoration: none;
+}
+
+nav ul.main-nav li a:hover {
+  color: #00ff00;
+  background-color: #444;
+}
+
+nav ul.main-nav li a:active {
+  color: #00ff00;
+  background-color: #555;
+}
+
+
+nav ul.secondary_nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav ul.secondary_nav li {
+  display: inline;
+  float: left;
+}
+
+nav ul.secondary_nav li a {
+  display: block;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul.secondary_nav li a:hover {
+  background-color: #444;
+}
+
+nav ul.secondary_nav li a:active {
+  background-color: #555;
+}
+
+nav.breadcrumbs {
+    display: block;
+    width: 100%;
+}
+
+nav.breadcrumbs ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav.breadcrumbs ul li {
+  display: inline;
+  float: left;
+  padding: 15px 18px;
+  font-size: 16px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+
+ul.table-of-contents{
+  list-style-type: none;
+  margin-left: 3%;
+}
+
+ul.table-of-contents a{
+  font-style: bold;
+}
+
+ul.article-list {
+  list-style-type: none;
+}
+
+.example {
+  margin: 3%;
+  padding: 1%;
+  background-color: #999;
+  font-style: italic;
+  color: #f3f3f3;
+}
