@@ -86,22 +86,43 @@ i, em, b, strong, code {
   font-family: 'Source Code Pro', monospace;
 }
 
-a, a:hover, a:active {
+p a, a:hover, a:active {
   color: #00ff00;
 }
 
-a {
+p a {
   border-bottom: 3px solid green;
   font-weight: bold;
 }
 
-a:hover {
+p a:hover {
   background-color: #444;
   border-left: 3px solid #444;
   border-right: 3px solid #444;
 }
 
-a:active {
+p a:active {
+  background-color: #555;
+  border-left: 3px solid #555;
+  border-right: 3px solid #555;
+}
+
+li a, a:hover, a:active {
+  color: #00ff00;
+}
+
+li a {
+  border-bottom: 3px solid green;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #444;
+  border-left: 3px solid #444;
+  border-right: 3px solid #444;
+}
+
+li a:active {
   background-color: #555;
   border-left: 3px solid #555;
   border-right: 3px solid #555;
@@ -154,6 +175,27 @@ footer {
 
 /* Classes */
 
+.shadow {
+    box-shadow: 5px 10px 8px #888888;
+}
+
+a img.shadow {
+  border: 0;
+  font-weight: normal;
+}
+
+a img.shadow:hover {
+    background-color: #333;
+    border: 0;
+    box-shadow: 3px 5px 4px #888888;
+}
+
+a img.shadow:active {
+    background-color: #333;
+    border: 0;
+    box-shadow: 1px 2px 3px #888888;
+}
+
 nav ul.main-nav{
   list-style-type: none;
   margin: 0;
@@ -166,6 +208,7 @@ nav ul.main-nav{
   display: inline;
   float: left;
 } */
+
 
 nav ul.main-nav li a {
   display: block;
@@ -185,35 +228,6 @@ nav ul.main-nav li a:active {
   background-color: #555;
 }
 
-
-nav ul.secondary_nav{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-nav ul.secondary_nav li {
-  display: inline;
-  float: left;
-}
-
-nav ul.secondary_nav li a {
-  display: block;
-  text-align: center;
-  padding: 15px 18px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-nav ul.secondary_nav li a:hover {
-  background-color: #444;
-}
-
-nav ul.secondary_nav li a:active {
-  background-color: #555;
-}
 
 nav.breadcrumbs {
     display: block;
