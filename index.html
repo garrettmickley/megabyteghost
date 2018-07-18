@@ -20,19 +20,46 @@
     <link href="./css/main.css" type="text/css" rel="stylesheet">
 
     <!-- Schema -->
-    {
-      "@context" : "http://schema.org",
-      "@type" : "MusicGroup",
-      "name" : "megabyteGhost",
-      "url" : "https://megabyteghost.com",
-      "image" : "https://pbs.twimg.com/media/DfnZ4tiVQAAwlGY.jpg",
-      "sameAs" : [
-        “https://www.facebook.com/megabyteghost/",
-        "https://twitter.com/megabyteGhost",
-        "https://www.instagram.com/megabyteGhost/",
-        “https://www.youtube.com/channel/UC5ssfuXJpdvQO3La9ThI7Ew",
-      ]
-    }
+    <script type="application/ld+json">
+      {
+          "@context": "http://schema.org",
+          "@type": "MusicGroup",
+          "name": "megabyteGhost",
+          "url" : "https://megabyteghost.com",
+          "image" : "https://pbs.twimg.com/media/DfnZ4tiVQAAwlGY.jpg",
+          "sameAs" : [
+            "https://www.facebook.com/megabyteghost/",
+            "https://twitter.com/megabyteGhost",
+            "https://www.instagram.com/megabyteGhost/",
+            "https://www.youtube.com/channel/UC5ssfuXJpdvQO3La9ThI7Ew"
+          ]
+          "foundingLocation": {
+              "@type": "City",
+              "name": "Jupiter"
+          },
+          "foundingDate": "2018",
+          "genre": "Techno",
+          //"album": {
+          //    "@type": "MusicAlbum",
+          //    "name": "The Beatles",
+          //    "alternateName": "The White Album",
+          //    "@id": "http://musicbrainz.org/release-group/055be730-dcad-31bf-b550-45ba9c202aa3",
+          //    "datePublished": "1968"
+          },
+          "member": [
+            {
+              "@type": "OrganizationRole",
+              "member": {
+                "@type": "Person",
+                "name": "Garrett Mickley"
+              },
+              "startDate": "2018",
+              //"endDate": "1970",
+              //"roleName": ["guitar", "lead vocals"]
+            }
+          ]
+      }
+    </script>
 
     <!-- SEO Meta, etc -->
     <meta name="robots" content="index, follow">
